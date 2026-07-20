@@ -193,7 +193,7 @@ Potential future work includes:
 
 # Acknowledgements
 
-Developed during **[Hackathon Name]** under the guidance of **Nguyen Minh Thai**.
+Developed during **CSE SummerSchool 2026**.
 
 We sincerely thank the organizers for providing the simulation platform and competition environment.
 
