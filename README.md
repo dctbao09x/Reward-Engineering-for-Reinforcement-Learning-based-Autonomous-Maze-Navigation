@@ -67,7 +67,7 @@ The optimization process primarily targeted three objectives:
 
 - Objective 1 — Checkpoint Collection
 - Objective 2 — Map Coverage
-- Objective 3 — Wall-touching Reduction
+- Objective 3 — Wall-touching
 
 ---
 
@@ -115,7 +115,7 @@ Some common failure cases encountered during policy optimization included:
 - Robot spinning in place until reaching the maximum step limit
 - Inefficient exploration resulting in poor map coverage
 
-These behaviours were gradually reduced through reward engineering and iterative experimentation. :contentReference[oaicite:1]{index=1}
+These behaviours were gradually reduced through reward engineering and iterative experimentation.
 
 ---
 
@@ -126,7 +126,7 @@ The optimized reward policy demonstrated:
 - Stable navigation across 500+ generated maps
 - More consistent goal-reaching behaviour
 - Improved exploration efficiency
-- Reduced wall collisions
+- Reduced collisions
 - Better balance between exploration and exploitation
 
 ---
@@ -138,7 +138,7 @@ Through this project we learned that:
 - Reward engineering plays a critical role in Reinforcement Learning.
 - Good performance depends on balancing reward design, training episodes, and training map diversity.
 - The training environment is just as important as the learning algorithm itself.
-- Policy optimization is an iterative engineering process rather than a one-time tuning task. :contentReference[oaicite:2]{index=2}
+- Policy optimization is an iterative engineering process rather than a one-time tuning task.
 
 ---
 
