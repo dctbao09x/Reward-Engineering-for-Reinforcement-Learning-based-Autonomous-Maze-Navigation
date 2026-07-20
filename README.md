@@ -110,8 +110,8 @@ The final policy was evaluated on **500+ randomly generated maze maps**.
 Some common failure cases encountered during policy optimization included:
 
 - Robot repeatedly colliding with walls
-- Robot spinning in place until reaching the maximum step limit
-- Inefficient exploration resulting in poor map coverage
+- Robot spinning in place until reaching the maximum step limit (Excessively conservative movement)
+- Inefficient exploration resulting in poor map coverage (Failure to explore unexplored regions)
 
 These behaviours were gradually reduced through reward engineering and iterative experimentation.
 
@@ -119,11 +119,9 @@ These behaviours were gradually reduced through reward engineering and iterative
 
 # Results
 
-The optimized reward policy demonstrated:
-
-- Stable navigation across 500+ generated maps
-- More consistent goal-reaching behaviour
-- Improved exploration efficiency
+- Evaluated on over 500 generated maps
+- Successfully optimized policies for three navigation objectives
+- Produced stable behaviours across unseen maze layouts. Improved exploration efficiency
 - Reduced collisions
 - Better balance between exploration and exploitation
 
@@ -140,12 +138,14 @@ Through this project we learned that:
 
 ---
 
-# Tech Stack
+# Technologies & Concepts
 
 - Reinforcement Learning
-- Reward Engineering
+- Reward Shaping
+- Policy Optimization
 - Autonomous Navigation
-- GitHub
+- JSON Configuration
+- Experimental Evaluation
 
 *(Simulation platform provided by the organizers.)*
 
