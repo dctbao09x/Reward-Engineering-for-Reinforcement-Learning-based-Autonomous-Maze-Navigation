@@ -10,7 +10,7 @@ Instead of modifying the learning algorithm itself, our team focused on **reward
 
 | Member | Responsibilities |
 |---------|------------------|
-| **Phan Hong Phuc** | Reward engineering, policy optimization, experiment design, evaluation on 500+ maps, presentation (Objective 2: Coverage) |
+| **Phan Hong Phuc** | Reward engineering, policy optimization, presentation (Objective 2: Coverage) |
 | **Nguyen Chi Nguyen** | Reward engineering, policy optimization, presentation (Objective 1: Checkpoints) |
 | **Dao Cong Tri Bao** | Reward engineering, policy optimization, presentation (Objective 2: Coverage) |
 | **Tran Hoang Son** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
