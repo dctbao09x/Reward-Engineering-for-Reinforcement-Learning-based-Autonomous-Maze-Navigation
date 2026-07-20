@@ -164,11 +164,8 @@ Through this project we learned that:
 # Repository Structure
 
 ```
-|
 ├── README.md
 ├── LICENSE
-├── docs/
-│   ├── Final_Presentation.pdf
 │
 ├── images/
 │   ├── maze_map_to_run.jpg
