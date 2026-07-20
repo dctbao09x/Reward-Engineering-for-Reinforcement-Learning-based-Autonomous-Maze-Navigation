@@ -16,7 +16,7 @@ Instead of modifying the learning algorithm itself, our team focused on **reward
 | **Tran Hoang Son** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
 | **Nguyen Hoang Khang Huy** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
 
-Mentor: **Nguyen Minh Thai**
+Mentor: **Nguyen Minh Thai** (VNUHCM - Ho Chi Minh City University of Technology)
 
 ---
 
@@ -160,21 +160,14 @@ Through this project we learned that:
 ├── README.md
 ├── docs/
 │   ├── Final_Presentation.pdf
-│   └── Technical_Report.pdf
 │
 ├── images/
-│   ├── maze_examples/
+│   ├── maze_main/
 │   ├── inference/
-│   ├── reward_analysis/
-│   └── training/
-│
-├── videos/
-│   └── demo.mp4
 │
 └── results/
-    ├── reward_policy.md
-    ├── experiment_log.md
-    └── observations.md
+    ├── policy.csv
+    ├── reward_formula.json
 ```
 
 ---
